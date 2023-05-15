@@ -1,0 +1,42 @@
+{
+  "name": "pupsite",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "autoprefixer": "10.4.14",
+    "axios": "^1.4.0",
+    "carousel": "^0.0.3",
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.3.1",
+    "flowbite": "^1.6.5",
+    "font-awesome": "^4.7.0",
+    "formik": "^2.2.9",
+    "hero-slider": "^3.1.0",
+    "next": "^13.4.1",
+    "next-link": "^2.0.0",
+    "postcss": "8.4.23",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "react-img": "^1.0.3",
+    "react-responsive-carousel": "^3.2.23",
+    "react-simple-carousel-image-slider": "^1.1.1",
+    "react-slick": "^0.29.0",
+    "sass": "^1.62.1",
+    "slideshow": "^1.0.4",
+    "tailwindcss": "^3.3.1",
+    "yarn": "^1.22.19"
+  }
+}
