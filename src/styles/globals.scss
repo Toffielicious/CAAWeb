@@ -7,6 +7,194 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-.sliderSection{
+.sliderSection {
   max-height: 650px;
+}
+.title h1 {
+  font-size: 200%;
+}
+
+//News
+
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(82, 61, 6);
+  margin-top: 50px;
+}
+
+.content {
+  height: 200px;
+  box-sizing: border-box;
+}
+
+.content-text {
+  height: 650px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.content-text a {
+  color: rgb(179, 138, 28);
+}
+
+.content-text p {
+  color: #555555;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.news {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  height: auto;
+  width: 320px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.news a:hover {
+  text-decoration: underline;
+}
+
+.content-container h1,
+.content-container a,
+.content-container p {
+  font-size: 36px;
+}
+
+//Fab
+
+.adminButton {
+  height: 60px;
+  width: 60px;
+  background-color: #800;
+  border-radius: 50%;
+  display: block;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.adminButton2 {
+  height: 60px;
+  width: 60px;
+  background-color: #ffe499;
+  border-radius: 50%;
+  display: block;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.adminButton i {
+  font-size: 22px;
+}
+
+.adminButton2 i {
+  font-size: 22px;
+}
+
+.adminButtons {
+  position: absolute;
+  width: 100%;
+  bottom: 120%;
+  text-align: center;
+}
+
+.adminButtons2 {
+  position: absolute;
+  width: 100%;
+  bottom: 120%;
+  text-align: center;
+}
+
+.adminButtons a {
+  display: block;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-decoration: none;
+  margin: 10px auto 0;
+  line-height: 1.15;
+  color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  position: relative;
+  box-shadow: 0 0 5px 1px rgba(51, 51, 51, .3);
+}
+
+.adminButtons2 a {
+  display: block;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-decoration: none;
+  margin: 10px auto 0;
+  line-height: 1.15;
+  color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  position: relative;
+  box-shadow: 0 0 5px 1px rgba(51, 51, 51, .3);
+}
+
+
+.adminButtons a:hover {
+  transform: scale(1.05);
+}
+
+.adminButtons2 a:hover {
+  transform: scale(1.05);
+}
+
+
+.messenger a i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.up a i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.messenger {
+  position: fixed;
+  bottom: 130px;
+  right: 35px;
+}
+
+.up {
+  position: fixed;
+  bottom: 55px;
+  right: 35px;
+}
+
+
+.icon {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 3px solid #800;
+  transition: .2s;
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
